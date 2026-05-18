@@ -338,6 +338,8 @@ Even the top segment (Champions) averages only 1.5 orders; Loyal Customers avera
 
 The dashboard is designed as a **single narrative arc** — not a daily monitoring tool, but a self-contained story flowing from problem identification through to recommendation foundations. Every panel answers one of the Key Business Questions defined in Section 1.4.
 
+🔗**Dashboard Link:** [Single Narrative Arc Dashboard - Looker Studio](https://datastudio.google.com/reporting/fe05a7e8-44a2-4b7b-b4dd-2d945c90b409)
+
 <img width="4375" height="3125" alt="TheLook_E-commerce__Retention_ _Acquisition_Analysis (2)_page-0001" src="https://github.com/user-attachments/assets/3995ce16-c71b-4982-95d5-7e8edb77bb7f" />
 
 ### Dashboard Layout
