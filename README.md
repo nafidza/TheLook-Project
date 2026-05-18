@@ -200,25 +200,21 @@ Total Sessions
 | `order_gap_summary` | Avg days between orders per segment | Purchase interval analysis |
 | `top_product_summary` | Top 3 categories per segment by revenue | Category affinity |
 | `value_summary` | CLV, total revenue, avg recency per segment | Revenue at risk quantification |
+| `aov_summary` | AOV per segment calculated from completed order items | Financial projections in Section 8 |
 
 ### 5.4 Derived Metric: AOV per Segment
 
-The `avg_order_value` column is not natively available in the dataset. It was derived independently:
+AOV is calculated directly from completed transaction records using `SUM(sale_price) / COUNT(DISTINCT order_id)` per segment. The full reference table is included below and used as the financial multiplier across all projections in Section 8.
 
-```sql
-AOV = Total Revenue / Total Distinct Orders
-    = SUM(sale_price) / COUNT(DISTINCT order_id)
-```
-
-| Segment | AOV |
-|---|---|
-| At Risk | $105.24 |
-| Champions | $121.94 |
-| Cant Lose Them | $152.89 |
-| Loyal Customers | $128.88 |
-| Potential Loyalist | $71.39 |
-
-This metric is used as the multiplier in experiment financial projections — replacing avg_clv to avoid overstating projected impact.
+| Segment | AOV | Total Orders | Total Revenue |
+|---|---|---|---|
+| At Risk | $105.24 | 2,548 | $268,156 |
+| Champions | $121.94 | 1,126 | $137,305 |
+| Cant Lose Them | $152.89 | 602 | $92,038 |
+| Loyal Customers | $128.88 | 1,827 | $235,466 |
+| Potential Loyalist | $71.39 | 3,080 | $219,874 |
+| Hibernating | $43.97 | 2,402 | $105,611 |
+| About to Sleep | $42.84 | 1,098 | $47,043 |
 
 ---
 
@@ -419,9 +415,11 @@ Before presenting interventions, it is worth quantifying what happens if nothing
 |---|---|---|
 | At Risk fully churns | $245,441 | 6–12 months |
 | Cant Lose Them fully churns | $85,653 | 6–12 months |
-| Loyal Customers migrate to At Risk (no prevention) | $226,086 | 3–6 months |
-| **Total revenue at risk without intervention** | **~$557K** | **Within 12 months** |
- 
+| Loyal Customers migrate to At Risk (no prevention) | ~$45,000 | 3–6 months |
+| **Total revenue at risk without intervention** | **~$376K–$557K** | **Within 12 months** |
+
+> *Loyal Customers figure assumes a conservative 20% migration rate — not all 1,248 users will churn without intervention. The lower bound ($376K) uses this estimate; the upper bound ($557K) represents full Loyal Customers revenue for context only.*
+
 Against this, the variable cost of email campaigns approaches zero. The question is not whether to intervene — the question is in which order.
 
 ---
@@ -547,6 +545,8 @@ Phase 2 runs in parallel after Phase 1A is launched. These interventions are eit
 | Ongoing effort | Near-zero after initial automation setup |
  
 > *"Revenue defended" is the appropriate framing here — this is not new revenue generation but prevention of revenue loss from currently healthy customers.*
+> 
+> *The 5% retention assumption is conservative — it represents the minimum threshold at which this intervention generates positive expected value relative to near-zero email cost.*
  
 ---
  
