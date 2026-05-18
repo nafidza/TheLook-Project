@@ -71,29 +71,7 @@ Management identified two critical problems threatening the platform's revenue e
 ---
 
 ## 3. Cloud Environment & Tech Stack
-
-```
-Raw Data (BigQuery Public Dataset)
-        │
-        ▼
-┌─────────────────────┐
-│   BigQuery (SQL)    │  ← Data Cleaning & Feature Engineering
-│   GCP Cloud         │    RFM Scoring, Funnel Aggregation
-└─────────────────────┘
-        │
-        ▼
-┌─────────────────────┐
-│  Google Colab       │  ← Exploratory Data Analysis
-│  (Python)           │    Visualization: Matplotlib, Seaborn
-│  Connected to BQ    │
-└─────────────────────┘
-        │
-        ▼
-┌─────────────────────┐
-│  Looker Studio      │  ← Dashboard & Storytelling
-│  (Data Studio)      │    Connected directly to BigQuery
-└─────────────────────┘
-```
+<img width="1920" height="500" alt="Modern Minimalist Data Analytics Workflow Infographic (1)" src="https://github.com/user-attachments/assets/e182b420-bfb0-4881-b8f8-8aa5d3ff0f3a" />
 
 **Tools:** BigQuery SQL · Python (Pandas, Seaborn, Matplotlib) · Google Colab · Looker Studio  
 **Connection:** All layers connect directly to BigQuery — no data is exported to local files
