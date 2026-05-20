@@ -181,6 +181,8 @@ AOV is calculated directly from completed transaction records using `SUM(sale_pr
 | Hibernating | $43.97 | 2,402 | $105,611 |
 | About to Sleep | $42.84 | 1,098 | $47,043 |
 
+>*Note: Revenue figures here differ slightly from Section 6 due to stricter dual-status filtering at the transaction level. AOV calculations in Section 8 use this table exclusively.*
+
 ### 5.4 Final Analytical Tables
 
 | Table | Contents | Used For |
@@ -328,7 +330,7 @@ Designed as a single narrative arc — not a daily monitoring tool, but a self-c
 ### 8.1 Key Findings Summary
 
 **Objective 1 — Acquisition:**
-1. **Structural acquisition barrier:** ~250,000 sessions per cycle are lost between product view and purchase completion. The near-identical funnel pattern across channels strongly suggests a platform-level friction point — likely related to registration or checkout access requirements — rather than channel quality itself.
+1. **Structural acquisition barrier:** ~250,000 sessions per cycle (per dataset) are lost between product view and purchase completion. The near-identical funnel pattern across channels strongly suggests a platform-level friction point — likely related to registration or checkout access requirements — rather than channel quality itself.
 2. **Channel-agnostic drop-off:** The ~50% product-to-cart rate and 0% cart-to-purchase rate are identical across all five channels, indicating the issue is likely platform-wide and cannot be solved by reallocating marketing budget.
 
 **Objective 2 — Retention:**
@@ -336,7 +338,7 @@ Designed as a single narrative arc — not a daily monitoring tool, but a self-c
 3. **Revenue concentration risk:** The top 4 segments account for 73% of total revenue. At Risk and Cant Lose Them together contribute $331K (29.8%) from segments in active deterioration, while Loyal Customers ($226K) are approaching behavioral thresholds associated with higher inactivity risk.
 4. **Behavioral churn signal:** At Risk customers are purchasing at 5× the interval of Champions (480 vs 91 days) — suggesting that spontaneous re-engagement becomes increasingly unlikely without intervention.
 5. **Untapped activation window:** Potential Loyalist (2,866 users, $205K revenue) are largely one-time buyers with a recency of just 36 days — creating a meaningful opportunity to encourage second-purchase behavior and future customer value growth.
-6. **Category anchor:** Jeans consistently appears as the top revenue-driving category across premium segments — consistently the #1 revenue driver for Champions, Loyal Customers, At Risk, and Cant Lose Them alike, enabling precise personalization without additional data collection.
+6. **Category anchor:** Jeans consistently appears as the top revenue-driving category across premium segments (more than 10% revenue constribution per each premium segment) — consistently the #1 revenue driver for Champions, Loyal Customers, At Risk, and Cant Lose Them alike, enabling precise personalization without additional data collection.
 
 ---
 
@@ -498,7 +500,9 @@ Together, these drop-offs represent a significant loss of already-acquired traff
 #### Phase 2C — Champions: Value Maximization (Month 2–3, parallel)
  
 **Rationale:** Champions are the healthiest segment — no rescue required. This intervention is opportunistic: test whether cross-sell recommendations can increase AOV without negatively affecting cart abandonment.
- 
+
+| Element | Detail |
+|---|---|
 | Strategy | Automated cross-sell recommendations at checkout |
 | Recommendation logic | Jeans purchasers shown Outerwear & Coats / Sweaters (based on observed category affinity in this segment) |
 | Design | A/B test — Group A (standard cart) vs Group B (cart + cross-sell) |
