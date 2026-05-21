@@ -551,6 +551,8 @@ A recommendation without exit criteria is a commitment without conditions.
 
 *Dataset: [TheLook Ecommerce — Google BigQuery Public Data](https://console.cloud.google.com/marketplace/product/bigquery-public-data/thelook-ecommerce)*
 
+*SQL: [SQL for Data Cleaning & Feature Engineering](https://github.com/nafidza/TheLook-Project/blob/main/sql-queries.sql)*
+
 *EDA: [Python for EDA — Google Colab](https://colab.research.google.com/drive/1YXuW8Oy3rV-GknxEYwetqXd3Xl7fZ15n?usp=sharing)*
 
 *Dashboard: [Looker Studio](https://datastudio.google.com/reporting/fe05a7e8-44a2-4b7b-b4dd-2d945c90b409)*
