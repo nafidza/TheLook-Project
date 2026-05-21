@@ -1,3 +1,5 @@
+\sql
+
 -- User Cleaning --------------------------
 CREATE OR REPLACE TABLE `portfolio-analytics-nafidza.thelook_clean_analysis.users_cleaned` AS
 SELECT 
@@ -460,3 +462,5 @@ WHERE oi.is_clean IS TRUE AND oi.status = 'Complete'
   AND o.is_clean  IS TRUE AND o.status  = 'Complete'
 GROUP BY r.segment
 ORDER BY total_revenue DESC;
+
+\\
