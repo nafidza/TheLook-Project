@@ -1,4 +1,4 @@
-\sql
+\`\`\`sql
 
 -- User Cleaning --------------------------
 CREATE OR REPLACE TABLE `portfolio-analytics-nafidza.thelook_clean_analysis.users_cleaned` AS
@@ -463,4 +463,5 @@ WHERE oi.is_clean IS TRUE AND oi.status = 'Complete'
 GROUP BY r.segment
 ORDER BY total_revenue DESC;
 
-\\
+\`\`\`
+```
