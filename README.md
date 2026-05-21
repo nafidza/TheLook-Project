@@ -11,8 +11,8 @@
 3. [Cloud Environment & Tech Stack](#3-cloud-environment--tech-stack)
 4. [Data Cleaning](#4-data-cleaning)
 5. [Data Extraction & Feature Engineering](#5-data-extraction--feature-engineering)
-6. [Exploratory Data Analysis (EDA)](#6-exploratory-data-analysis-eda)
-7. [Dashboard — Looker Studio](#7-dashboard--looker-studio)
+6. [Key Findings](#6-key-findings)
+7. [Dashboard](#7-dashboard)
 8. [Insights & Strategic Recommendations](#8-insights--strategic-recommendations)
 
 ---
