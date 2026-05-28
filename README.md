@@ -290,7 +290,7 @@ Category affinity analysis reveals consistent purchasing patterns that differ si
  
 | Profile | Segments | Top Categories | Avg Item Price |
 |---|---|---|---|
-| **Premium** | Champions, Loyal, At Risk, Cant Lose Them | Jeans + Outerwear & Coats | $110–$184 |
+| **Premium** | Champions, Loyal, At Risk, Cant Lose Them | Jeans + Outerwear & Coats + Fashion Hoodies & Sweatshirt | $110–$184 |
 | **Entry-level** | Potential Loyalist, Hibernating, New Customers | Intimates + Tops & Tees | $26–$48 |
  
 **The insight:** At Risk customers were Jeans and Outerwear buyers before they became inactive. They are disengaged premium fashion buyers — not price-sensitive shoppers. A win-back email referencing their specific category ("Your favorite Jeans collection is waiting") is the right message, not a generic discount.
