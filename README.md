@@ -284,8 +284,7 @@ Average days between orders varies dramatically — and functions as a leading i
 
 ### Finding 5 — Category Affinity: The Personalization Map Already Exists in the Data
 
-<img width="1020<img width="4375" height="3125" alt="TheLook_E-commerce__Retention_ _Acquisition_Analysis (3)_page-0001" src="https://github.com/user-attachments/assets/b3d56367-dbd8-40a7-ad19-ab27dc51b7f8" />
-" alt="EDA 6" src="https://github.com/user-attachments/assets/77e4a421-d787-426e-a927-65adbd8a91bf" />
+<img width="1020" alt="EDA 6" src="https://github.com/user-attachments/assets/77e4a421-d787-426e-a927-65adbd8a91bf" />
 
 Category affinity analysis reveals consistent purchasing patterns that differ significantly between premium and entry-level segments — and maps directly onto the personalization strategy in Section 8.
  
