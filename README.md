@@ -1,4 +1,3 @@
-<img width="1920" height="500" alt="Modern Minimalist Data Analytics Workflow Infographic (1)" src="https://github.com/user-attachments/assets/f8a4296f-c768-4c8a-b8ec-ed5337c0e390" />
 # TheLook E-commerce: Retention & Acquisition Analysis
 
 > **End-to-end analytics project** using BigQuery SQL, Python (Google Colab), and Looker Studio to identify acquisition leakage and revenue threats from aging customer segments.
@@ -314,7 +313,7 @@ Designed as a single narrative arc — not a daily monitoring tool, but a self-c
 
 🔗 [Open Dashboard in Looker Studio →](https://datastudio.google.com/reporting/fe05a7e8-44a2-4b7b-b4dd-2d945c90b409)
 
-<img width="500" alt="Screenshot 2026-05-28 143338" src="https://github.com/user-attachments/assets/4f4810bb-e1d0-46e2-bb27-8490b6cd58af" />
+<img width="1020" alt="Screenshot 2026-05-28 143338" src="https://github.com/user-attachments/assets/4f4810bb-e1d0-46e2-bb27-8490b6cd58af" />
 
 **Layout:**
 - **Top row** — 5 KPI scorecards: immediate executive summary before any chart is read
