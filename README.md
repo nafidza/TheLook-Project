@@ -204,7 +204,7 @@ EDA conducted in Google Colab with direct BigQuery connection. Full notebook: [P
 
 ### Finding 1 — 250K Sessions Lost Per Cycle: The Problem Isn't the Ads, It's the Platform
 
-<img width="1384" height="583" alt="EDA 1" src="https://github.com/user-attachments/assets/c2044f3c-2a82-47aa-851f-87e9cec65661" />
+<img width="1020" alt="EDA 1" src="https://github.com/user-attachments/assets/c2044f3c-2a82-47aa-851f-87e9cec65661" />
 
 Across ~500K Anonymous sessions, every traffic channel shows an identical pattern: product-to-cart conversion holds at ~50%, then cart-to-purchase collapses to exactly 0%.
  
@@ -224,8 +224,8 @@ Across ~500K Anonymous sessions, every traffic channel shows an identical patter
 
 ### Finding 2 — Same Audience, Every Channel: Budget Reallocation Won't Fix This
 
-<img width="1384" height="583" alt="EDA 3" src="https://github.com/user-attachments/assets/1b8160af-91cb-49a8-9993-ecf1a6b5428a" />
-<img width="1384" height="583" alt="EDA 2" src="https://github.com/user-attachments/assets/ee82561f-c05b-4055-9131-9d5cf622444f" />
+<img width="1020" alt="EDA 3" src="https://github.com/user-attachments/assets/1b8160af-91cb-49a8-9993-ecf1a6b5428a" />
+<img width="1020" alt="EDA 2" src="https://github.com/user-attachments/assets/ee82561f-c05b-4055-9131-9d5cf622444f" />
 
 
 Email dominates volume (224,690 sessions), followed by Adwords (150,115). All other channels contribute ~50K each. Despite this volume difference, every channel shows a near-identical user-type split: ~73% Anonymous / ~22% Registered Lead / ~5% Existing Buyer — with less than 0.2 percentage point variance across all five.
@@ -238,7 +238,7 @@ Email dominates volume (224,690 sessions), followed by Adwords (150,115). All ot
 
 ### Finding 3 — $331K Revenue in Active Deterioration (and $226K More Approaching the Edge)
 
-<img width="1382" height="784" alt="EDA 4" src="https://github.com/user-attachments/assets/969892f1-532c-45d1-8c2a-16a86eacd4af" />
+<img width="1020" alt="EDA 4" src="https://github.com/user-attachments/assets/969892f1-532c-45d1-8c2a-16a86eacd4af" />
 
 The bubble map positions each segment across revenue (Y-axis), inactivity (X-axis), and user count (bubble size). Top-right = highest revenue, highest inactivity — the most financially dangerous quadrant.
  
@@ -260,7 +260,7 @@ The bubble map positions each segment across revenue (Y-axis), inactivity (X-axi
 
 ### Finding 4 — The Behavioral Clock: At Risk Customers Have Already Churned
 
-<img width="1184" height="684" alt="EDA 5" src="https://github.com/user-attachments/assets/0ba7a4fb-9308-4c82-a501-240a3157d6d0" />
+<img width="1020" alt="EDA 5" src="https://github.com/user-attachments/assets/0ba7a4fb-9308-4c82-a501-240a3157d6d0" />
 
 Average days between orders varies dramatically — and functions as a leading indicator of churn, not a lagging one.
  
@@ -284,7 +284,8 @@ Average days between orders varies dramatically — and functions as a leading i
 
 ### Finding 5 — Category Affinity: The Personalization Map Already Exists in the Data
 
-<img width="1475" height="1318" alt="EDA 6" src="https://github.com/user-attachments/assets/77e4a421-d787-426e-a927-65adbd8a91bf" />
+<img width="1020<img width="4375" height="3125" alt="TheLook_E-commerce__Retention_ _Acquisition_Analysis (3)_page-0001" src="https://github.com/user-attachments/assets/b3d56367-dbd8-40a7-ad19-ab27dc51b7f8" />
+" alt="EDA 6" src="https://github.com/user-attachments/assets/77e4a421-d787-426e-a927-65adbd8a91bf" />
 
 Category affinity analysis reveals consistent purchasing patterns that differ significantly between premium and entry-level segments — and maps directly onto the personalization strategy in Section 8.
  
@@ -313,7 +314,7 @@ Designed as a single narrative arc — not a daily monitoring tool, but a self-c
 
 🔗 [Open Dashboard in Looker Studio →](https://datastudio.google.com/reporting/fe05a7e8-44a2-4b7b-b4dd-2d945c90b409)
 
-<img width="1020" alt="Screenshot 2026-05-28 143338" src="https://github.com/user-attachments/assets/4f4810bb-e1d0-46e2-bb27-8490b6cd58af" />
+<img width="1020" alt="TheLook_E-commerce__Retention_ _Acquisition_Analysis_Dashboard" src="https://github.com/user-attachments/assets/b9e07b38-bc80-4fcc-be08-6ccecb83d599" />
 
 **Layout:**
 - **Top row** — 5 KPI scorecards: immediate executive summary before any chart is read
