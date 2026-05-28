@@ -313,8 +313,7 @@ Designed as a single narrative arc — not a daily monitoring tool, but a self-c
 
 🔗 [Open Dashboard in Looker Studio →](https://datastudio.google.com/reporting/fe05a7e8-44a2-4b7b-b4dd-2d945c90b409)
 
-<img width="4375" height="3125" alt="TheLook_E-commerce__Retention_ _Acquisition_Analysis (2)_page-0001" src="https://github.com/user-attachments/assets/3995ce16-c71b-4982-95d5-7e8edb77bb7f" />
-
+<img width="1076" height="767" alt="Screenshot 2026-05-28 143338" src="https://github.com/user-attachments/assets/4f4810bb-e1d0-46e2-bb27-8490b6cd58af" />
 
 **Layout:**
 - **Top row** — 5 KPI scorecards: immediate executive summary before any chart is read
@@ -504,7 +503,7 @@ Together, these drop-offs represent a significant loss of already-acquired traff
 | Element | Detail |
 |---|---|
 | Strategy | Automated cross-sell recommendations at checkout |
-| Recommendation logic | Jeans purchasers shown Outerwear & Coats / Sweaters (based on observed category affinity in this segment) |
+| Recommendation logic | Jeans purchasers shown Fashion Hoodies & Sweatshirt / Sweaters (based on observed category affinity in this segment) |
 | Design | A/B test — Group A (standard cart) vs Group B (cart + cross-sell) |
 | Primary metric | Average Order Value (AOV) |
 | Guardrail metric | Cart abandonment rate |
