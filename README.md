@@ -1,3 +1,4 @@
+<img width="1920" height="500" alt="Modern Minimalist Data Analytics Workflow Infographic (1)" src="https://github.com/user-attachments/assets/f8a4296f-c768-4c8a-b8ec-ed5337c0e390" />
 # TheLook E-commerce: Retention & Acquisition Analysis
 
 > **End-to-end analytics project** using BigQuery SQL, Python (Google Colab), and Looker Studio to identify acquisition leakage and revenue threats from aging customer segments.
@@ -71,7 +72,7 @@ Management identified two critical problems threatening the platform's revenue e
 ---
 
 ## 3. Cloud Environment & Tech Stack
-<img width="500" alt="Modern Minimalist Data Analytics Workflow Infographic (1)" src="https://github.com/user-attachments/assets/e182b420-bfb0-4881-b8f8-8aa5d3ff0f3a" />
+<img width="1020" alt="Modern Minimalist Data Analytics Workflow Infographic (1)" src="https://github.com/user-attachments/assets/e3ca4801-7a31-4d80-a7b2-b467e49c0b97" />
 
 **Tools:** BigQuery SQL · Python (Pandas, Seaborn, Matplotlib) · Google Colab · Looker Studio  
 **Connection:** All layers connect directly to BigQuery — no data is exported to local files
