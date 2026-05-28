@@ -313,7 +313,7 @@ Designed as a single narrative arc — not a daily monitoring tool, but a self-c
 
 🔗 [Open Dashboard in Looker Studio →](https://datastudio.google.com/reporting/fe05a7e8-44a2-4b7b-b4dd-2d945c90b409)
 
-<img width="1076" height="767" alt="Screenshot 2026-05-28 143338" src="https://github.com/user-attachments/assets/4f4810bb-e1d0-46e2-bb27-8490b6cd58af" />
+<img width="776" height="467" alt="Screenshot 2026-05-28 143338" src="https://github.com/user-attachments/assets/4f4810bb-e1d0-46e2-bb27-8490b6cd58af" />
 
 **Layout:**
 - **Top row** — 5 KPI scorecards: immediate executive summary before any chart is read
