@@ -295,7 +295,7 @@ Category affinity analysis reveals consistent purchasing patterns that differ si
  
 **The insight:** At Risk customers were Jeans and Outerwear buyers before they became inactive. They are disengaged premium fashion buyers — not price-sensitive shoppers. A win-back email referencing their specific category ("Your favorite Jeans collection is waiting") is the right message, not a generic discount.
  
-**Why it matters:** Precise sub-bucket targeting is possible without additional data collection. The personalization input already exists in purchase history — sub-buckets for At Risk: Jeans lovers · Fashion Hoodies lovers · Swim lovers.
+**Why it matters:** Precise sub-bucket targeting is possible without additional data collection. The personalization input already exists in purchase history — sub-buckets for At Risk: Jeans lovers · Fashion Hoodies lovers · Outerwear lovers.
 
 ---
 
